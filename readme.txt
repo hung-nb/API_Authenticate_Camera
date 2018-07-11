@@ -1,6 +1,21 @@
-Test login API authentication
+Layout elements
+    Use "native-base"
+    Use vector Icon from "native-base"
+API authentication
+    Use "axios"
+    Use async/ await
+Camera to take photo
+    Use "Camera" from Expo
+Database to save photo taken inside app
+    Use "SQLite" from Expo
+
+================================
+
+Test
     Change API url in "src/business/Util.js"
     Change "src/business/Authentication.js" to "return false;" to test API
+
+================================
 
 Visual Studio Code
     https://marketplace.visualstudio.com/items?itemName=kelset.rn-full-pack
