@@ -64,7 +64,7 @@ export default class Home extends Component {
                 <Button
                     style={styles.btnTakePhoto}
                     onPress={() => this._onPressCamera()}>
-                    <Text>Take photo</Text>
+                    <Text style={{color: 'white'}}>TAKE PHOTO</Text>
                 </Button>
             </View>
         )

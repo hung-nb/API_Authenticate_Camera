@@ -6,7 +6,7 @@ const TakePhoto = (props) => {
     return (
         <TouchableOpacity
             onPress={props.onPress}>
-            <Icon style={{fontSize: 50}} name='ios-radio-button-on' />
+            <Icon style={{fontSize: 50, color: 'white'}} name='ios-radio-button-on' />
         </TouchableOpacity>
     )
 }
